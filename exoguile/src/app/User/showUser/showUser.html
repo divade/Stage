@@ -1,0 +1,13 @@
+
+<ul class="users" [hidden]= "submitted">
+<li *ngFor="let user of users"
+>
+<span class="badge">{{user.id}}</span>{{user.name}}
+</li>
+</ul>
+<ul class="users">
+<li *ngFor="let user of users"
+>
+<span class="badge">{{user.description}}</span>{{user.status.progress}}
+</li>
+</ul>

@@ -1,0 +1,25 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+h2{
+  color: #369;
+  font-size: 150%;
+}
+
+.body {
+  margin-left: 4%;
+}
+
+#firstTitle{
+  margin-top: 3%;
+  padding-top: 3%;
+  margin-left: 2%;
+}
+
+#footer{
+  margin-bottom: 0;
+  margin-top: 2%;
+}

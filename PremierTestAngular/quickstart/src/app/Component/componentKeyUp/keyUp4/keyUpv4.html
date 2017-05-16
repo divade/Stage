@@ -1,0 +1,8 @@
+<body class='body'>
+  <h2>Module KeyUp-V4 :</h2>
+  <p>Ajout du blur, si le champ est perdu le p s'actualise avec la valeur de l'input</p>
+  <input #box (keyup.enter)='update(box.value)'
+  (blur)="update(box.value)">
+  <p>{{value}}</p>
+</body>
+------------------------------------------------------------------------
